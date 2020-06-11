@@ -6,3 +6,4 @@ Yahoo Finance Web Scraper using [**Python**](https://www.python.org/) and [**Bea
 Using [**Eel**](https://github.com/samuelhwilliams/Eel) framework to create an Electron-like GUI using HTML/CSS/JS with full access to Python capabilities <br/>
 
 Just type the Company ticker on the textbox to get the current/latest stock index price of the company.
+![UI](https://raw.githubusercontent.com/riderswhocode/bs4-python-scraper/master/Scraping%20BS4.PNG)
