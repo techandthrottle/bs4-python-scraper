@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html style="width: 1000px;height: 600px;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>PythonScrapping</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="row web-header">
+        <div class="col">
+            <h2 class="display-4 shadow-sm" style="background-position: auto;margin-top: 40px;margin-right: 0px;margin-left: 20px;">Python Webscrapping Using BeautifulSoup4</h2>
+        </div>
+    </div>
+    <div class="row content-area">
+        <div class="col"><input class="border rounded" type="text" style="width: 100%;height: 100%;margin-left: 20px;padding: 0;padding-left: 10px;" placeholder="Enter Stock Name" id="stock_name"></div>
+        <div class="col"><button class="btn btn-success btn-lg border rounded border-success" type="button" onclick="getData()" style="height: 100%;">Get Stock Price</button></div>
+    </div>
+    <div class="row" id="result-area">
+        <div class="col">
+            <p id="output" style="height: 100%;margin-bottom: 0px;padding-top: 5px;font-size: 23px;"></p>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="eel.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
